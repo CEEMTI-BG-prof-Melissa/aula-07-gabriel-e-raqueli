@@ -4,26 +4,33 @@
   </head>
   <body>
     <form method="post" action="/recebe.html">
-      Nome completo: <br><input type="text" maxlenght="50" id="Nome completo" name="Nome completo">
+        <label for="Nomecompleto"> Nome completo: </label>
+      <br><input type="text" maxlenght="50" id="Nomecompleto" name="Nomecompleto">
       <br><br>
-      Senha: <br><input type="Password" id="Senha" name="Senha">
+        <label for="Senha"> Senha: </label>
+      <br><input type="Password" id="Senha" name="Senha">
       <br><br>
-      Idade: <br><input type="number" id="Idade" name="Idade">
+        <label for="Idade"> Idade: </label>
+      <br><input type="number" id="Idade" name="Idade">
       <br><br>
-      E-mail: <br><input type="number" id="E-mail" name="E-mail">
+        <label for="E-mail"> E-mail: </label>
+      <br><input type="number" id="E-mail" name="E-mail">
       <br><br>
-      Data de nascimento: <br><input type="date" id="Data de nascimento" name="Data de nascimento" minlenght="01-01-2000" maxlenght="31-12-2024">
+        <label for="Datadenascimento"> Data de nascimento:  </label>
+      <br><input type="date" id="Datadenascimento" name="Datadenascimento" minlenght="01-01-2000" maxlenght="31-12-2024">
       <br><br>
-      Mensagem pessoal: <br><textarea rows="4" cals="40" name="Mensagempessoal" ></textarea> 
+        <label for="Mensagempessoal">  Mensagem pessoal:</label>
+      <br><textarea rows="4" cals="40" name="Mensagempessoal" id="Mensagempessoal"></textarea> 
       <br><br>
-      Área de interesse: <br>
+       <label for=" Áreadeinteresse"> Área de interesse: </label>
+      <br>
       <select>
         <option value="Programação"> Programação  </option>
         <option value="Design"> Design </option>
         <option value="Redes"> Redes </option>
         <option value="Suporte"> Suporte </option>
       </select>
-      <input type="submit" value="Entrar"
+      <input type="submit" value="Entrar">
     </form>
   </body>
 </html>
