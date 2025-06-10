@@ -3,8 +3,9 @@
     <title> Aula 07 </title>
   </head>
   <body>
-    <form method="post" action="/recebe.html">
-        <label for="Nomecompleto"> Nome completo: </label>
+    <form method="post" action="/recebe.html"> <!-- cria um formulario no metodo post e envia o resualtado para outra pagina -->
+        <label for="Nomecompleto"> Nome completo: </label> <!-- coloca um texto em destaque -->
+      <!-- for="" em label tem que receber sempre o mesmo valor que ID -->
       <br><input type="text" maxlenght="50" id="Nomecompleto" name="Nomecompleto">
       <br><br>
         <label for="Senha"> Senha: </label>
@@ -24,8 +25,8 @@
       <br><br>
        <label for=" Áreadeinteresse"> Área de interesse: </label>
       <br>
-      <select>
-        <option value="Programação"> Programação  </option>
+      <select> <!-- cria um campo de seleção com as opções mencionadas --> 
+        <option value="Programação"> Programação  </option> <!-- cria uma opção para o campo de seleção <select> -->
         <option value="Design"> Design </option>
         <option value="Redes"> Redes </option>
         <option value="Suporte"> Suporte </option>
